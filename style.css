@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-color: #909090;
+  }
+  .container {
+    background-color: #11141d;
+    width: min(90%, 31.25rem);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 0.5rem;
+    padding: 3rem;
+  }
+  .container h1 {
+    color: rgb(255, 172, 28);
+  }
+  .container p {
+    color: #909090;
+    margin: 2rem 0 0.5rem 0;
+  }
+  .container textarea {
+    resize: none;
+    width: 100%;
+    background-color: #292c34;
+    border: solid black;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: #ffffff;
+  }
+  .container button {
+    display: block;
+    background-color: rgb(255, 172, 28);
+    color: #ffffff;
+    border: solid green;
+    outline: none;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    margin: 1.5rem 2rem ;
+    cursor: pointer;
+  }
+  p#result {
+    text-align: center;
+    color: rgb(0, 255, 0);
+    font-size: 1rem;
+  }
